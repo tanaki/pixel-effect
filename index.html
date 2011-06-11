@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+		<title>Test Pixel Effect</title>
+		
+		<link type="text/css" rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.13.custom.css" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+		
+		<script type="text/javascript" src="js/lib/jquery.random.js"></script>
+		<script type="text/javascript" src="js/pixel.js"></script>
+		<script type="text/javascript" src="js/toolbox.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="content">
+				<h1>Title</h1>
+				<h2>Sub title</h2>
+			</div>
+			<canvas id="image" width="1024" height="685"></canvas>
+		</div>
+		<div id="toolbox">
+			<strong>Pixel Size : <span id="pixel-size">30</span>px</strong>
+			<div id="slider-pixel"></div>
+			
+			<strong>Title Size : <span id="title-size">6</span>em</strong>
+			<div id="slider-title"></div>
+			
+			<strong>Subtitle Size : <span id="subtitle-size">2</span>em</strong>
+			<div id="slider-subtitle"></div>
+			
+			<input type="button" class="pixel" value="Pixelify" />
+			<input type="button" class="cancel" value="Reset" />
+		</div>
+	</body>
+</html>
