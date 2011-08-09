@@ -1,0 +1,35 @@
+.grid {
+	width:650px;
+	overflow:hidden;
+}
+
+.grid-project {
+	float:left;
+	margin:0 0 20px 50px;
+	text-align:center;
+}
+
+.grid-project h6,
+.grid-project a {
+	font-weight:normal;
+	font-size:12px;
+	line-height:12px;
+	color:#333;
+	text-decoration:none;
+	
+	display:block;
+	margin:0;
+	padding:0;
+}
+	
+.filter {
+	position:absolute;
+	left:900px;
+	top:100px;
+	
+	display:block;
+	color:#fff;
+	background:#000;
+	padding:10px;
+	text-decoration:none;
+}
